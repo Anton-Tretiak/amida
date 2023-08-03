@@ -1,10 +1,11 @@
-import React from 'react';
+import { Catalog } from './Pages/Main/Catalog';
+
 import './App.scss';
 
 export const App = () => {
   return (
     <div className="App">
-      App
+      <Catalog />
     </div>
   );
 }
