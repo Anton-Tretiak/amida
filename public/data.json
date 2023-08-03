@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Iphone 7",
+    "image": "https://bigmag.ua/image/cache/catalog/archive/data/1c-iphone-7/black1-650x540.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Iphone 7 Plus",
+    "image": "https://www.ipeople.in.ua/files/products/2840.800x600.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Iphone 8",
+    "image": "https://cdn.alloallo.media/catalog/product/apple/iphone/iphone-8/iphone-8-gold.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Iphone SE 2020",
+    "image": "https://apple-mania.com.ua/media/catalog/product/cache/e026f651b05122a6916299262b60c47d/a/p/apple-iphone-se-2020-white_1.webp"
+  },
+  {
+    "id": 5,
+    "name": "Iphone 11",
+    "image": "https://store.iland.ua/media/catalog/product/i/p/iphone11-black-select-2019_2_1.png?width=270&height=270&store=default&image-type=image"
+  },
+  {
+    "id": 6,
+    "name": "Iphone 11 Pro",
+    "image": "https://itehnika.com.ua/image/cache/catalog/products/apple/iphone/11-pro-max/iphone-11-pro-max-gold-1080x1080.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Iphone 12",
+    "image": "https://kombo.in.ua/wp-content/uploads/2021/02/71E5zB1qbIL._SL1500_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Iphone 12 Mini",
+    "image": "https://ilounge.ua/files/products/apple-iphone-12-mini-256gb-green-mgee3-2_4.1000x.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Iphone 13",
+    "image": "https://www.ipeople.in.ua/files/products/iphone-13-pro-max-blue-select__7_11.800x600.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Iphone 14",
+    "image": "https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://cdn.comfy.ua/media/catalog/product/u/a/uaua_iphone14_purple_pdp_image_position-1a_2.jpg/w_600"
+  }
+]
