@@ -8,7 +8,7 @@ type Props = {
 };
 
 export const ProductCard: FC<Props> = ({ product }) => (
-  <Card style={{ width: '200px', padding: '10px' }}>
+  <Card style={{ width: '200px', padding: '10px', marginBottom: '20px', boxSizing: 'border-box' }}>
     <Card.Img
       variant="top"
       src={product.image}
@@ -17,7 +17,7 @@ export const ProductCard: FC<Props> = ({ product }) => (
 
     <Card.Body style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
       <Card.Title style={{ textAlign: 'center' }}>{product.name}</Card.Title>
-      <Button variant="primary">Add to Cart</Button>
+      <Button variant="outline-primary">Add to Cart</Button>
     </Card.Body>
   </Card>
 );

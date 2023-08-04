@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Header } from './Components/Header/Header';
-import { ProductList } from './Components/ProductList/ProductList';
+
+import { Catalog } from './Pages/Catalog/Catalog';
+import { Cart } from './Pages/Cart/Cart';
 
 import './App.scss';
 
@@ -24,10 +27,16 @@ export const App = () => {
   }, []);
 
   return (
-    <div className="App">
-      <Header />
+    <Router>
+      <div className="App">
+        <Header />
 
-      <ProductList products={products} />
-    </div>
+        <Routes>
+          <Route path='/' element={<Catalog products={products}/>} />
+
+          <Route path='/cart' element={<Cart />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
